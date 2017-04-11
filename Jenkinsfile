@@ -1,6 +1,6 @@
 node('maven') {
    stage('checkout tfrs-sample-sonar')
-   git url: 'https://github.com/dmarley/sandbox-sonar.git'
+   git url: 'https://github.com/dmarley/tfrs-sonar-scanner.git'
    
    stage('list root dir')
    sh 'ls -l -srt'
